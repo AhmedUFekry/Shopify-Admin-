@@ -11,9 +11,9 @@
 		AB73B47429B6E12400CE814B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47329B6E12400CE814B /* LoginViewController.swift */; };
 		AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */; };
 		AB73B47829B6E1A100CE814B /* LoginNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47729B6E1A100CE814B /* LoginNetworkService.swift */; };
+		AB73B47F29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47E29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift */; };
 		AB84951329B63CF400E1631C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84951229B63CF400E1631C /* AppDelegate.swift */; };
 		AB84951529B63CF400E1631C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84951429B63CF400E1631C /* SceneDelegate.swift */; };
-		AB84951729B63CF400E1631C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84951629B63CF400E1631C /* ViewController.swift */; };
 		AB84951A29B63CF400E1631C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB84951829B63CF400E1631C /* Main.storyboard */; };
 		AB84951C29B63CF600E1631C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB84951B29B63CF600E1631C /* Assets.xcassets */; };
 		AB84951F29B63CF600E1631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB84951D29B63CF600E1631C /* LaunchScreen.storyboard */; };
@@ -44,10 +44,10 @@
 		AB73B47329B6E12400CE814B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginModel.swift; sourceTree = "<group>"; };
 		AB73B47729B6E1A100CE814B /* LoginNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworkService.swift; sourceTree = "<group>"; };
+		AB73B47E29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCrudOperaionsViewController.swift; sourceTree = "<group>"; };
 		AB84950F29B63CF400E1631C /* Shopify Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopify Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB84951229B63CF400E1631C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB84951429B63CF400E1631C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB84951629B63CF400E1631C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB84951929B63CF400E1631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB84951B29B63CF600E1631C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB84951E29B63CF600E1631C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,6 +113,7 @@
 		AB73B46C29B6DFFE00CE814B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AB73B47929B6ED5E00CE814B /* Admin CRUD Operations */,
 				AB73B46D29B6E02500CE814B /* Admin Login */,
 			);
 			path = Modules;
@@ -153,6 +154,38 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		AB73B47929B6ED5E00CE814B /* Admin CRUD Operations */ = {
+			isa = PBXGroup;
+			children = (
+				AB73B47C29B6ED9E00CE814B /* Model */,
+				AB73B47B29B6ED9300CE814B /* View */,
+				AB73B47A29B6ED8400CE814B /* ViewModel */,
+			);
+			path = "Admin CRUD Operations";
+			sourceTree = "<group>";
+		};
+		AB73B47A29B6ED8400CE814B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB73B47B29B6ED9300CE814B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB73B47E29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB73B47C29B6ED9E00CE814B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AB84950629B63CF300E1631C = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +213,6 @@
 				AB73B46B29B6DF9000CE814B /* Delegates */,
 				AB73B46929B6DF0500CE814B /* Utilities */,
 				AB73B46C29B6DFFE00CE814B /* Modules */,
-				AB84951629B63CF400E1631C /* ViewController.swift */,
 				AB84952029B63CF600E1631C /* Info.plist */,
 			);
 			path = "Shopify Admin";
@@ -335,12 +367,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */,
-				AB84951729B63CF400E1631C /* ViewController.swift in Sources */,
 				AB84951329B63CF400E1631C /* AppDelegate.swift in Sources */,
 				AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */,
 				AB73B47829B6E1A100CE814B /* LoginNetworkService.swift in Sources */,
 				AB73B47429B6E12400CE814B /* LoginViewController.swift in Sources */,
 				AB84951529B63CF400E1631C /* SceneDelegate.swift in Sources */,
+				AB73B47F29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

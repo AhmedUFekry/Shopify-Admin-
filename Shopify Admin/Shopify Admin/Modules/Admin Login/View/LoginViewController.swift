@@ -38,10 +38,11 @@ class LoginViewController: UIViewController {
                 
                 if self?.loginCustomer?.AuthCustomer(customerEmail: self?.username.text ?? "", customerPasssword: self?.password.text ?? "") == 1 {
                     
-                  //  let Home = self?.storyboard?.instantiateViewController(withIdentifier: "HomeTabBarController") as! HomeTabBarController
+                    let AdminCrudOp = self?.storyboard?.instantiateViewController(withIdentifier: "AdminCrudOperaionsViewController") as! AdminCrudOperaionsViewController
     
-                 //   self?.navigationController?.pushViewController(Home, animated: true)
+                    self?.navigationController?.pushViewController(AdminCrudOp, animated: true)
                     self?.errorLabel.text = "Login Successful"
+                    
                 }
                 else{
                     
