@@ -33,7 +33,7 @@ class loginViewModel{
                     x = 1
                     UserDefaults.standard.set(obserable.customers[i].id, forKey: "loginid")
                     let userDefultId =  UserDefaults.standard.integer(forKey:"loginid")
-                        print("JSON STRING IS", userDefultId ?? 0)
+                    print("JSON STRING IS", userDefultId )
                 }
                 
         }

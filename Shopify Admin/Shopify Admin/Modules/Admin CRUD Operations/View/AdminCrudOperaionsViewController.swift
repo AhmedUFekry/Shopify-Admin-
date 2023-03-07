@@ -8,7 +8,7 @@
 import UIKit
 
 class AdminCrudOperaionsViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +17,9 @@ class AdminCrudOperaionsViewController: UIViewController {
     
 //Customer Buttons *********************
     @IBAction func CreateCusomerButton(_ sender: Any) {
+        let CreateNewUserVC = self.storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
+        
+        self.navigationController?.pushViewController(CreateNewUserVC, animated: true)
     }
     
     @IBAction func RetrieveCusomerButton(_ sender: Any) {

@@ -11,6 +11,7 @@ class LoginViewController: UIViewController {
     var loginCustomer:loginViewModel?
     var loginStatus:Int = 0
     
+    @IBOutlet weak var AdminImageView: UIImageView!
     @IBOutlet weak var errorLabel: UILabel!
     
     @IBOutlet weak var username: UITextField!
@@ -18,7 +19,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var password: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        AdminImageView.image = UIImage(named: "Admin4")
         loginCustomer = loginViewModel()
         
         
@@ -56,6 +57,7 @@ class LoginViewController: UIViewController {
         loginCustomer?.getCustomer()
 
     }
+    
     
     
     @IBAction func signUpButton(_ sender: Any) {
