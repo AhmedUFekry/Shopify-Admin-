@@ -39,6 +39,9 @@ class AdminCrudOperaionsViewController: UIViewController {
     }
     
     @IBAction func RetrieveProductButton(_ sender: Any) {
+        let getProucts = self.storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") as! CategoryViewController
+        
+        self.navigationController?.pushViewController(getProucts, animated: true)
     }
     
     @IBAction func UpdateProductButton(_ sender: Any) {
