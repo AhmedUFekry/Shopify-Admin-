@@ -14,6 +14,7 @@ class AllCustomers : Decodable{
 class CustomerLogin: Decodable {
     let id: Int?
     let email: String?
+    let first_name: String?
     let note:String?
 }
 

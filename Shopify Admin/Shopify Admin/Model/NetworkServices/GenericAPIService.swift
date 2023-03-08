@@ -1,8 +1,8 @@
 //
-//  ApiService.swift
+//  GenericAPIService.swift
 //  Shopify Admin
 //
-//  Created by Ahmed Fekry on 07/03/2023.
+//  Created by Ahmed Fekry on 08/03/2023.
 //
 
 import Foundation
@@ -11,6 +11,8 @@ import Alamofire
 protocol NetworkService
 {
     static func fetchFromApi<T : Decodable>( API_URL:String ,completion : @escaping (T?)-> Void)
+    
+    
 }
 
 
@@ -32,6 +34,4 @@ class ApiService : NetworkService
         }
         
     }
-    
-    
 }

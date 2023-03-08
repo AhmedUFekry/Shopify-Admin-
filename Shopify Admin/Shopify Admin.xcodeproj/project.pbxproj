@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0DC9CC29B90A2E008302AF /* GenericAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9CB29B90A2E008302AF /* GenericAPIService.swift */; };
+		AB0DC9CE29B90B5A008302AF /* RetrieveCustomersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9CD29B90B5A008302AF /* RetrieveCustomersViewModel.swift */; };
+		AB0DC9D029B90E7A008302AF /* RetrieveCustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9CF29B90E7A008302AF /* RetrieveCustomersViewController.swift */; };
+		AB0DC9D229B90FE5008302AF /* RetrieveCustomersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9D129B90FE5008302AF /* RetrieveCustomersTableViewCell.swift */; };
 		AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47129B6E0C800CE814B /* LoginViewModel.swift */; };
 		AB73B47429B6E12400CE814B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47329B6E12400CE814B /* LoginViewController.swift */; };
 		AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */; };
 		AB73B47829B6E1A100CE814B /* LoginNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47729B6E1A100CE814B /* LoginNetworkService.swift */; };
 		AB73B47F29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47E29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift */; };
 		AB73B48629B6FC0D00CE814B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B48529B6FC0D00CE814B /* SignUpViewController.swift */; };
-		AB73B48829B6FC4E00CE814B /* CustomerNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B48729B6FC4E00CE814B /* CustomerNetworkManager.swift */; };
+		AB73B48829B6FC4E00CE814B /* AddCustomerNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B48729B6FC4E00CE814B /* AddCustomerNetworkManager.swift */; };
 		AB73B48A29B6FC7300CE814B /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B48929B6FC7200CE814B /* SignupViewModel.swift */; };
 		AB73B48C29B6FCDF00CE814B /* CustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B48B29B6FCDF00CE814B /* CustomerModel.swift */; };
 		AB73B49A29B70D1300CE814B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AB73B49929B70D1300CE814B /* Kingfisher */; };
 		AB73B49D29B70D9500CE814B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B49C29B70D9500CE814B /* Category.swift */; };
-		AB73B4A029B70FCA00CE814B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B49F29B70FCA00CE814B /* ApiService.swift */; };
 		AB73B4A329B7105B00CE814B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AB73B4A229B7105B00CE814B /* Alamofire */; };
 		AB73B4A529B712BC00CE814B /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B4A429B712BC00CE814B /* CategoryViewModel.swift */; };
 		AB73B4A729B712FC00CE814B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B4A629B712FC00CE814B /* CategoryViewController.swift */; };
@@ -51,17 +54,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0DC9CB29B90A2E008302AF /* GenericAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericAPIService.swift; sourceTree = "<group>"; };
+		AB0DC9CD29B90B5A008302AF /* RetrieveCustomersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersViewModel.swift; sourceTree = "<group>"; };
+		AB0DC9CF29B90E7A008302AF /* RetrieveCustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersViewController.swift; sourceTree = "<group>"; };
+		AB0DC9D129B90FE5008302AF /* RetrieveCustomersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersTableViewCell.swift; sourceTree = "<group>"; };
 		AB73B47129B6E0C800CE814B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AB73B47329B6E12400CE814B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginModel.swift; sourceTree = "<group>"; };
 		AB73B47729B6E1A100CE814B /* LoginNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworkService.swift; sourceTree = "<group>"; };
 		AB73B47E29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminCrudOperaionsViewController.swift; sourceTree = "<group>"; };
 		AB73B48529B6FC0D00CE814B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		AB73B48729B6FC4E00CE814B /* CustomerNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerNetworkManager.swift; sourceTree = "<group>"; };
+		AB73B48729B6FC4E00CE814B /* AddCustomerNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCustomerNetworkManager.swift; sourceTree = "<group>"; };
 		AB73B48929B6FC7200CE814B /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 		AB73B48B29B6FCDF00CE814B /* CustomerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerModel.swift; sourceTree = "<group>"; };
 		AB73B49C29B70D9500CE814B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		AB73B49F29B70FCA00CE814B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		AB73B4A429B712BC00CE814B /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
 		AB73B4A629B712FC00CE814B /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		AB73B4A829B7135900CE814B /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -106,6 +112,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0DC9C129B90442008302AF /* Retrieve All Customers */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DC9C429B90463008302AF /* Model */,
+				AB0DC9C329B9045C008302AF /* View */,
+				AB0DC9C229B90454008302AF /* ViewModel */,
+			);
+			path = "Retrieve All Customers";
+			sourceTree = "<group>";
+		};
+		AB0DC9C229B90454008302AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DC9CD29B90B5A008302AF /* RetrieveCustomersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB0DC9C329B9045C008302AF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DC9CF29B90E7A008302AF /* RetrieveCustomersViewController.swift */,
+				AB0DC9D129B90FE5008302AF /* RetrieveCustomersTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB0DC9C429B90463008302AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DC9C729B90498008302AF /* DataModels */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB0DC9C729B90498008302AF /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		AB0DC9C829B909D7008302AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DC9C929B909E0008302AF /* NetworkServices */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB0DC9C929B909E0008302AF /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DC9CB29B90A2E008302AF /* GenericAPIService.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
 		AB73B46929B6DF0500CE814B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +287,7 @@
 		AB73B48129B6FBA100CE814B /* CustomerViews */ = {
 			isa = PBXGroup;
 			children = (
+				AB0DC9C129B90442008302AF /* Retrieve All Customers */,
 				AB73B48029B6FB8600CE814B /* CreateNewCustomer */,
 			);
 			path = CustomerViews;
@@ -247,7 +312,7 @@
 		AB73B48429B6FBCD00CE814B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AB73B48729B6FC4E00CE814B /* CustomerNetworkManager.swift */,
+				AB73B48729B6FC4E00CE814B /* AddCustomerNetworkManager.swift */,
 				AB73B48B29B6FCDF00CE814B /* CustomerModel.swift */,
 			);
 			path = Model;
@@ -291,7 +356,6 @@
 		AB73B49129B7065200CE814B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				AB73B49E29B70FB100CE814B /* NetworkService */,
 				AB73B49B29B70D8000CE814B /* DataModel */,
 			);
 			path = Model;
@@ -303,14 +367,6 @@
 				AB73B49C29B70D9500CE814B /* Category.swift */,
 			);
 			path = DataModel;
-			sourceTree = "<group>";
-		};
-		AB73B49E29B70FB100CE814B /* NetworkService */ = {
-			isa = PBXGroup;
-			children = (
-				AB73B49F29B70FCA00CE814B /* ApiService.swift */,
-			);
-			path = NetworkService;
 			sourceTree = "<group>";
 		};
 		AB84950629B63CF300E1631C = {
@@ -336,6 +392,7 @@
 		AB84951129B63CF400E1631C /* Shopify Admin */ = {
 			isa = PBXGroup;
 			children = (
+				AB0DC9C829B909D7008302AF /* Model */,
 				AB73B46A29B6DF3100CE814B /* View */,
 				AB73B46B29B6DF9000CE814B /* Delegates */,
 				AB73B46929B6DF0500CE814B /* Utilities */,
@@ -501,6 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0DC9CC29B90A2E008302AF /* GenericAPIService.swift in Sources */,
 				AB73B4A929B7135900CE814B /* CategoryCollectionViewCell.swift in Sources */,
 				AB73B4A529B712BC00CE814B /* CategoryViewModel.swift in Sources */,
 				AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */,
@@ -508,14 +566,16 @@
 				AB73B49D29B70D9500CE814B /* Category.swift in Sources */,
 				AB73B48629B6FC0D00CE814B /* SignUpViewController.swift in Sources */,
 				AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */,
-				AB73B4A029B70FCA00CE814B /* ApiService.swift in Sources */,
+				AB0DC9D029B90E7A008302AF /* RetrieveCustomersViewController.swift in Sources */,
 				AB73B47829B6E1A100CE814B /* LoginNetworkService.swift in Sources */,
-				AB73B48829B6FC4E00CE814B /* CustomerNetworkManager.swift in Sources */,
+				AB73B48829B6FC4E00CE814B /* AddCustomerNetworkManager.swift in Sources */,
 				AB73B48A29B6FC7300CE814B /* SignupViewModel.swift in Sources */,
 				AB73B4A729B712FC00CE814B /* CategoryViewController.swift in Sources */,
 				AB73B47429B6E12400CE814B /* LoginViewController.swift in Sources */,
+				AB0DC9CE29B90B5A008302AF /* RetrieveCustomersViewModel.swift in Sources */,
 				AB73B48C29B6FCDF00CE814B /* CustomerModel.swift in Sources */,
 				AB84951529B63CF400E1631C /* SceneDelegate.swift in Sources */,
+				AB0DC9D229B90FE5008302AF /* RetrieveCustomersTableViewCell.swift in Sources */,
 				AB73B47F29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,6 +23,9 @@ class AdminCrudOperaionsViewController: UIViewController {
     }
     
     @IBAction func RetrieveCusomerButton(_ sender: Any) {
+        let getCustomers = self.storyboard?.instantiateViewController(withIdentifier: "RetrieveCustomersViewController") as! RetrieveCustomersViewController
+        
+        self.navigationController?.pushViewController(getCustomers, animated: true)
     }
     
     @IBAction func UpdateCusomerButton(_ sender: Any) {
