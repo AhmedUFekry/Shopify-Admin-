@@ -114,14 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB0DC9C129B90442008302AF /* Retrieve All Customers */ = {
+		AB0DC9C129B90442008302AF /* Retrieve All Customers + deletion */ = {
 			isa = PBXGroup;
 			children = (
 				AB0DC9C429B90463008302AF /* Model */,
 				AB0DC9C329B9045C008302AF /* View */,
 				AB0DC9C229B90454008302AF /* ViewModel */,
 			);
-			path = "Retrieve All Customers";
+			path = "Retrieve All Customers + deletion";
 			sourceTree = "<group>";
 		};
 		AB0DC9C229B90454008302AF /* ViewModel */ = {
@@ -298,7 +298,7 @@
 		AB73B48129B6FBA100CE814B /* CustomerViews */ = {
 			isa = PBXGroup;
 			children = (
-				AB0DC9C129B90442008302AF /* Retrieve All Customers */,
+				AB0DC9C129B90442008302AF /* Retrieve All Customers + deletion */,
 				AB73B48029B6FB8600CE814B /* CreateNewCustomer */,
 			);
 			path = CustomerViews;
