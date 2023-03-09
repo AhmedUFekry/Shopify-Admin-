@@ -11,6 +11,7 @@
 		AB0DC9CE29B90B5A008302AF /* RetrieveCustomersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9CD29B90B5A008302AF /* RetrieveCustomersViewModel.swift */; };
 		AB0DC9D029B90E7A008302AF /* RetrieveCustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9CF29B90E7A008302AF /* RetrieveCustomersViewController.swift */; };
 		AB0DC9D229B90FE5008302AF /* RetrieveCustomersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9D129B90FE5008302AF /* RetrieveCustomersTableViewCell.swift */; };
+		AB0DC9D529B926D9008302AF /* DeleteCustomerNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9D429B926D9008302AF /* DeleteCustomerNetworkService.swift */; };
 		AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47129B6E0C800CE814B /* LoginViewModel.swift */; };
 		AB73B47429B6E12400CE814B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47329B6E12400CE814B /* LoginViewController.swift */; };
 		AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */; };
@@ -58,6 +59,7 @@
 		AB0DC9CD29B90B5A008302AF /* RetrieveCustomersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersViewModel.swift; sourceTree = "<group>"; };
 		AB0DC9CF29B90E7A008302AF /* RetrieveCustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersViewController.swift; sourceTree = "<group>"; };
 		AB0DC9D129B90FE5008302AF /* RetrieveCustomersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersTableViewCell.swift; sourceTree = "<group>"; };
+		AB0DC9D429B926D9008302AF /* DeleteCustomerNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCustomerNetworkService.swift; sourceTree = "<group>"; };
 		AB73B47129B6E0C800CE814B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AB73B47329B6E12400CE814B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginModel.swift; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 		AB0DC9C429B90463008302AF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AB0DC9D329B926B4008302AF /* NetworkServices */,
 				AB0DC9C729B90498008302AF /* DataModels */,
 			);
 			path = Model;
@@ -166,6 +169,14 @@
 			isa = PBXGroup;
 			children = (
 				AB0DC9CB29B90A2E008302AF /* GenericAPIService.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		AB0DC9D329B926B4008302AF /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				AB0DC9D429B926D9008302AF /* DeleteCustomerNetworkService.swift */,
 			);
 			path = NetworkServices;
 			sourceTree = "<group>";
@@ -563,6 +574,7 @@
 				AB73B4A529B712BC00CE814B /* CategoryViewModel.swift in Sources */,
 				AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */,
 				AB84951329B63CF400E1631C /* AppDelegate.swift in Sources */,
+				AB0DC9D529B926D9008302AF /* DeleteCustomerNetworkService.swift in Sources */,
 				AB73B49D29B70D9500CE814B /* Category.swift in Sources */,
 				AB73B48629B6FC0D00CE814B /* SignUpViewController.swift in Sources */,
 				AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */,

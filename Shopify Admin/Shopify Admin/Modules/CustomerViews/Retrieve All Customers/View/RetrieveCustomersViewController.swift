@@ -17,6 +17,15 @@ class RetrieveCustomersViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         retrieveCusomersViewModel = RetrieveCustomersViewModel()
+       /* DispatchQueue.main.async { [self] in
+            retrieveCusomersViewModel?.deleteCustomer(customerID: 6846245732651)
+        }*/
+  
+    }
+    
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
         retrieveCusomersViewModel?.bindingCustomers = { [weak self] in
             DispatchQueue.main.async {
                 self?.customerList = self?.retrieveCusomersViewModel?.AllCustomersResponse
@@ -27,8 +36,12 @@ class RetrieveCustomersViewController: UIViewController {
         retrieveCusomersViewModel?.getAllCustomer()
     }
     
+    
+    
 
 }
+
+
 
 // Customers TableView Extention
 extension RetrieveCustomersViewController : UITableViewDataSource , UITableViewDelegate{
@@ -42,15 +55,28 @@ extension RetrieveCustomersViewController : UITableViewDataSource , UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "RetrieveCustomersTableViewCell") as! RetrieveCustomersTableViewCell?
-        
-        cell?.CustomerIDLabel.text =  String ((customerList?.customers[indexPath.row].id) ?? 0)
+         var deletedID = customerList?.customers[indexPath.row].id
+        cell?.CustomerIDLabel.text =  String (deletedID ?? 0)
         cell?.CustomerEmailLabel.text = customerList?.customers[indexPath.row].email
         cell?.CustomerNameLabel.text = customerList?.customers[indexPath.row].first_name
         
         return cell!
     }
     
-    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        
+        
+        if editingStyle == UITableViewCell.EditingStyle.delete {
+            
+            
+                retrieveCusomersViewModel?.deleteCustomer(customerID: (customerList?.customers[indexPath.row].id)!)
+                customerList?.customers.remove(at: indexPath.row)
+            
+            
+            tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
+            //self.tableView.reloadData()
+        }
+    }
     
     
 }

@@ -57,19 +57,6 @@
                                     <action selector="CreateCusomerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BxD-Zc-taU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDq-lX-78Z">
-                                <rect key="frame" x="290" y="278" width="74" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Delete">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="DeleteCusomerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="osg-GV-fcm"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyR-zW-LqO">
                                 <rect key="frame" x="116" y="278" width="87" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

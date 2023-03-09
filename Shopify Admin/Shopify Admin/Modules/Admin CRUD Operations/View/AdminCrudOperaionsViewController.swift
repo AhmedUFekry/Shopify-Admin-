@@ -30,9 +30,6 @@ class AdminCrudOperaionsViewController: UIViewController {
     
     @IBAction func UpdateCusomerButton(_ sender: Any) {
     }
-    
-    @IBAction func DeleteCusomerButton(_ sender: Any) {
-    }
     //**********************************
     
     

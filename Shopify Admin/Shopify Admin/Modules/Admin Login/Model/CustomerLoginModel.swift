@@ -8,7 +8,7 @@
 import Foundation
 class AllCustomers : Decodable{
     
-    let customers : [CustomerLogin]
+    var customers : [CustomerLogin]
 }
 
 class CustomerLogin: Decodable {
