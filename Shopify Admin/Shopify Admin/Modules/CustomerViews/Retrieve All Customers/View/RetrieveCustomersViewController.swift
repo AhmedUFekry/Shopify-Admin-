@@ -64,19 +64,29 @@ extension RetrieveCustomersViewController : UITableViewDataSource , UITableViewD
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        var alert = UIAlertController(title: "Delete", message: "Delete \(self.customerList?.customers[indexPath.row].first_name ?? "name") from App Customers", preferredStyle: .actionSheet)
         
-        
-        if editingStyle == UITableViewCell.EditingStyle.delete {
-            
-            
-                retrieveCusomersViewModel?.deleteCustomer(customerID: (customerList?.customers[indexPath.row].id)!)
-                customerList?.customers.remove(at: indexPath.row)
-            
-            
-            tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
-            //self.tableView.reloadData()
+        let deleteAction = UIAlertAction(title: "Delete", style: UIAlertAction.Style.destructive) {
+            UIAlertAction in
+            if editingStyle == UITableViewCell.EditingStyle.delete {
+                
+                
+                self.retrieveCusomersViewModel?.deleteCustomer(customerID: (self.customerList?.customers[indexPath.row].id)!)
+                self.customerList?.customers.remove(at: indexPath.row)
+                
+                
+                tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
+                //self.tableView.reloadData()
+            }
         }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel)
+        
+        // Add the actions
+        alert.addAction(deleteAction)
+        alert.addAction(cancelAction)
+        
+        // Present the controller
+        self.present(alert, animated: true)
     }
-    
-    
 }
