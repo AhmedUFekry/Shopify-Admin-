@@ -87,12 +87,12 @@ class CategoryViewController: UIViewController ,UICollectionViewDataSource , UIC
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "product", for: indexPath) as! CategoryCollectionViewCell
         if isFilterd
                {
-                   cell.product_image.kf.setImage(with: URL(string: arr_filtered[indexPath.row].image.src ?? ""))
+            cell.product_image.kf.setImage(with: URL(string: arr_filtered[indexPath.row].image?.src ?? ""))
                    cell.product_name.text = arr_filtered[indexPath.row].variants[0].price
                    
                    return cell
                }
-               cell.product_image.kf.setImage(with: URL(string: products?.products[indexPath.row].image.src ?? ""))
+        cell.product_image.kf.setImage(with: URL(string: products?.products[indexPath.row].image?.src ?? ""))
                cell.product_name.text = products?.products[indexPath.row].variants[0].price
                
                

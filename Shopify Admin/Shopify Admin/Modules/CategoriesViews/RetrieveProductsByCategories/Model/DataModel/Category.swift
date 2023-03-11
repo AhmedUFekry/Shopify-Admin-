@@ -36,7 +36,7 @@ class productItem : Decodable
 {
     var id : Int?
     var product_type : String?
-    var image : ProductImage
+    var image : ProductImage?
     var variants : [Prices]
 }
 class product : Decodable {

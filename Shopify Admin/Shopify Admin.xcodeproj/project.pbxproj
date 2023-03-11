@@ -35,6 +35,12 @@
 		AB84952A29B63CF700E1631C /* Shopify_AdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84952929B63CF700E1631C /* Shopify_AdminTests.swift */; };
 		AB84953429B63CF700E1631C /* Shopify_AdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84953329B63CF700E1631C /* Shopify_AdminUITests.swift */; };
 		AB84953629B63CF700E1631C /* Shopify_AdminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB84953529B63CF700E1631C /* Shopify_AdminUITestsLaunchTests.swift */; };
+		AB86A13429BBDFB500F1CEB1 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A13329BBDFB500F1CEB1 /* ProductsViewController.swift */; };
+		AB86A13629BBE03500F1CEB1 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A13529BBE03500F1CEB1 /* ProductCollectionViewCell.swift */; };
+		AB86A13829BBE07100F1CEB1 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A13729BBE07100F1CEB1 /* ProductsViewModel.swift */; };
+		AB86A13F29BBFDFC00F1CEB1 /* AddNewProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A13E29BBFDFC00F1CEB1 /* AddNewProductViewController.swift */; };
+		AB86A14129BC038100F1CEB1 /* AddProductNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A14029BC038100F1CEB1 /* AddProductNetworkService.swift */; };
+		AB86A14329BC059A00F1CEB1 /* AddProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A14229BC059A00F1CEB1 /* AddProductViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +91,12 @@
 		AB84952F29B63CF700E1631C /* Shopify AdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shopify AdminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB84953329B63CF700E1631C /* Shopify_AdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopify_AdminUITests.swift; sourceTree = "<group>"; };
 		AB84953529B63CF700E1631C /* Shopify_AdminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopify_AdminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB86A13329BBDFB500F1CEB1 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		AB86A13529BBE03500F1CEB1 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB86A13729BBE07100F1CEB1 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		AB86A13E29BBFDFC00F1CEB1 /* AddNewProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewProductViewController.swift; sourceTree = "<group>"; };
+		AB86A14029BC038100F1CEB1 /* AddProductNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductNetworkService.swift; sourceTree = "<group>"; };
+		AB86A14229BC059A00F1CEB1 /* AddProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,7 +222,8 @@
 		AB73B46C29B6DFFE00CE814B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				AB73B48D29B7060900CE814B /* ProductViews */,
+				AB86A12F29BBDF2A00F1CEB1 /* ProductViews */,
+				AB73B48D29B7060900CE814B /* CategoriesViews */,
 				AB73B48129B6FBA100CE814B /* CustomerViews */,
 				AB73B47929B6ED5E00CE814B /* Admin CRUD Operations */,
 				AB73B46D29B6E02500CE814B /* Admin Login */,
@@ -329,22 +342,22 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		AB73B48D29B7060900CE814B /* ProductViews */ = {
+		AB73B48D29B7060900CE814B /* CategoriesViews */ = {
 			isa = PBXGroup;
 			children = (
-				AB73B48E29B7061F00CE814B /* RetrieveProducts */,
+				AB73B48E29B7061F00CE814B /* RetrieveProductsByCategories */,
 			);
-			path = ProductViews;
+			path = CategoriesViews;
 			sourceTree = "<group>";
 		};
-		AB73B48E29B7061F00CE814B /* RetrieveProducts */ = {
+		AB73B48E29B7061F00CE814B /* RetrieveProductsByCategories */ = {
 			isa = PBXGroup;
 			children = (
 				AB73B49129B7065200CE814B /* Model */,
 				AB73B49029B7064A00CE814B /* View */,
 				AB73B48F29B7063E00CE814B /* ViewModel */,
 			);
-			path = RetrieveProducts;
+			path = RetrieveProductsByCategories;
 			sourceTree = "<group>";
 		};
 		AB73B48F29B7063E00CE814B /* ViewModel */ = {
@@ -428,6 +441,83 @@
 				AB84953529B63CF700E1631C /* Shopify_AdminUITestsLaunchTests.swift */,
 			);
 			path = "Shopify AdminUITests";
+			sourceTree = "<group>";
+		};
+		AB86A12F29BBDF2A00F1CEB1 /* ProductViews */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A13929BBFC1A00F1CEB1 /* AddNewProduct */,
+				AB86A13A29BBFC5600F1CEB1 /* RetrieveProducts */,
+			);
+			path = ProductViews;
+			sourceTree = "<group>";
+		};
+		AB86A13029BBDF3F00F1CEB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A13729BBE07100F1CEB1 /* ProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB86A13129BBDF5800F1CEB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A13329BBDFB500F1CEB1 /* ProductsViewController.swift */,
+				AB86A13529BBE03500F1CEB1 /* ProductCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB86A13229BBDF6400F1CEB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB86A13929BBFC1A00F1CEB1 /* AddNewProduct */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A13D29BBFDAC00F1CEB1 /* Model */,
+				AB86A13C29BBFD9D00F1CEB1 /* View */,
+				AB86A13B29BBFD8E00F1CEB1 /* ViewModel */,
+			);
+			path = AddNewProduct;
+			sourceTree = "<group>";
+		};
+		AB86A13A29BBFC5600F1CEB1 /* RetrieveProducts */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A13229BBDF6400F1CEB1 /* Model */,
+				AB86A13129BBDF5800F1CEB1 /* View */,
+				AB86A13029BBDF3F00F1CEB1 /* ViewModel */,
+			);
+			path = RetrieveProducts;
+			sourceTree = "<group>";
+		};
+		AB86A13B29BBFD8E00F1CEB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A14229BC059A00F1CEB1 /* AddProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB86A13C29BBFD9D00F1CEB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A13E29BBFDFC00F1CEB1 /* AddNewProductViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB86A13D29BBFDAC00F1CEB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB86A14029BC038100F1CEB1 /* AddProductNetworkService.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -569,15 +659,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB86A14129BC038100F1CEB1 /* AddProductNetworkService.swift in Sources */,
 				AB0DC9CC29B90A2E008302AF /* GenericAPIService.swift in Sources */,
 				AB73B4A929B7135900CE814B /* CategoryCollectionViewCell.swift in Sources */,
+				AB86A13629BBE03500F1CEB1 /* ProductCollectionViewCell.swift in Sources */,
 				AB73B4A529B712BC00CE814B /* CategoryViewModel.swift in Sources */,
 				AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */,
+				AB86A13F29BBFDFC00F1CEB1 /* AddNewProductViewController.swift in Sources */,
 				AB84951329B63CF400E1631C /* AppDelegate.swift in Sources */,
+				AB86A13829BBE07100F1CEB1 /* ProductsViewModel.swift in Sources */,
 				AB0DC9D529B926D9008302AF /* DeleteCustomerNetworkService.swift in Sources */,
 				AB73B49D29B70D9500CE814B /* Category.swift in Sources */,
 				AB73B48629B6FC0D00CE814B /* SignUpViewController.swift in Sources */,
 				AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */,
+				AB86A13429BBDFB500F1CEB1 /* ProductsViewController.swift in Sources */,
+				AB86A14329BC059A00F1CEB1 /* AddProductViewModel.swift in Sources */,
 				AB0DC9D029B90E7A008302AF /* RetrieveCustomersViewController.swift in Sources */,
 				AB73B47829B6E1A100CE814B /* LoginNetworkService.swift in Sources */,
 				AB73B48829B6FC4E00CE814B /* AddCustomerNetworkManager.swift in Sources */,

@@ -36,10 +36,13 @@ class AdminCrudOperaionsViewController: UIViewController {
     //Products Buttons******************
     
     @IBAction func CreateProductButton(_ sender: Any) {
+        let CreateProucts = self.storyboard?.instantiateViewController(withIdentifier: "AddNewProductViewController") as! AddNewProductViewController
+        
+        self.navigationController?.pushViewController(CreateProucts, animated: true)
     }
     
     @IBAction func RetrieveProductButton(_ sender: Any) {
-        let getProucts = self.storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") as! CategoryViewController
+        let getProucts = self.storyboard?.instantiateViewController(withIdentifier: "ProductsViewController") as! ProductsViewController
         
         self.navigationController?.pushViewController(getProucts, animated: true)
     }
