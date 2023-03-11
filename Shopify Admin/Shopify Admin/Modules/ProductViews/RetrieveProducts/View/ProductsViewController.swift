@@ -23,6 +23,7 @@ class ProductsViewController: UIViewController , UICollectionViewDelegate , UICo
     
     
     var arr_product : [productItem] = []
+    let PRODUCTS_BRAND_URL = "https://12cda6f78842e3d15dd501d7e1fbc322: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@mad-ios1.myshopify.com/admin/api/2023-01/products.json"
         
     var arr_product_filtered : [productItem]!
     
@@ -38,23 +39,28 @@ class ProductsViewController: UIViewController , UICollectionViewDelegate , UICo
 
         // Do any additional setup after loading the view.
             //   guard let id = brandId else {return}
-                       
-               let PRODUCTS_BRAND_URL = "https://12cda6f78842e3d15dd501d7e1fbc322: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@mad-ios1.myshopify.com/admin/api/2023-01/products.json"
+             
+    }
+    
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+       
 
-               productsViewModel.getproductsBrand(PRODUCTS_BRAND_URL: PRODUCTS_BRAND_URL)
-               
-               productsViewModel.bindingproductsBrand = { [self] in
-                   productsBrand = productsViewModel.ObservableproductsBrand
-                   for i in 0..<(productsBrand?.products.count ?? 0)
-                               {
-                                   guard let item = productsViewModel.ObservableproductsBrand?.products[i] else {return}
-                                   arr_product.append(item)
-                               }
-                               DispatchQueue.main.async {
-                                   self.collection_V.reloadData()
-                               }
-               }
-               
+        productsViewModel.getproductsBrand(PRODUCTS_BRAND_URL: PRODUCTS_BRAND_URL)
+        
+        productsViewModel.bindingproductsBrand = { [self] in
+            productsBrand = productsViewModel.ObservableproductsBrand
+            for i in 0..<(productsBrand?.products.count ?? 0)
+                        {
+                            guard let item = productsViewModel.ObservableproductsBrand?.products[i] else {return}
+                            arr_product.append(item)
+                        }
+                        DispatchQueue.main.async {
+                            self.collection_V.reloadData()
+                        }
+        }
+        self.collection_V.reloadData()
     }
     
     @IBAction func filter_btn(_ sender: Any) {
@@ -102,7 +108,7 @@ class ProductsViewController: UIViewController , UICollectionViewDelegate , UICo
         }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        /*let productDetail = self.storyboard?.instantiateViewController(withIdentifier: "ProductDetailsViewController") as!ProductDetailsViewController
+        let productDetail = self.storyboard?.instantiateViewController(withIdentifier: "ProductDetailsViewController") as!ProductDetailsViewController
         if filter_slider.isHidden{
             productDetail.prodId = arr_product[indexPath.row].id
         }
@@ -112,7 +118,7 @@ class ProductsViewController: UIViewController , UICollectionViewDelegate , UICo
         }
        
         
-        navigationController?.pushViewController(productDetail, animated: true)*/
+        navigationController?.pushViewController(productDetail, animated: true)
     }
     
     

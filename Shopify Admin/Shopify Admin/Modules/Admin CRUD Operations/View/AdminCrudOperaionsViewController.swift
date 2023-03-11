@@ -50,8 +50,7 @@ class AdminCrudOperaionsViewController: UIViewController {
     @IBAction func UpdateProductButton(_ sender: Any) {
     }
     
-    @IBAction func DeleteProductButton(_ sender: Any) {
-    }
+    
     //**********************************
     
     
