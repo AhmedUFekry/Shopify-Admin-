@@ -57,9 +57,17 @@ class AdminCrudOperaionsViewController: UIViewController {
     //Inventory Buttons******************
     
     @IBAction func CreateInventoryButton(_ sender: Any) {
+        let CreateBrand = self.storyboard?.instantiateViewController(withIdentifier: "CreateNewBrandViewController") as! CreateNewBrandViewController
+        
+        self.navigationController?.pushViewController(CreateBrand, animated: true)
+        
     }
     
     @IBAction func RetrieveInventoryButton(_ sender: Any) {
+        let retrieveBrand = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        
+        self.navigationController?.pushViewController(retrieveBrand, animated: true)
+        
     }
     
     @IBAction func UpdateInventoryButton(_ sender: Any) {

@@ -10,7 +10,7 @@ import Kingfisher
 
 class ProductsViewController: UIViewController , UICollectionViewDelegate , UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
     
-   // var brandId : Int?
+  //  var brandId : Int?
     
     var brandTitle : String?
     

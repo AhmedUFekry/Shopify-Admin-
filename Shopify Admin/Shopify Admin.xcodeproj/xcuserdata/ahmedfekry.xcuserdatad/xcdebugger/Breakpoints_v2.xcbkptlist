@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F8D6D33B-91F3-4340-8C85-DAF58C43C5DF"
+            uuid = "AF01F101-3B29-47B0-8EF2-E57F5C011729"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shopify Admin/Modules/ProductViews/RetrieveProducts/View/ProductsViewController.swift"
+            filePath = "Shopify Admin/Modules/SmartCollectionViews/CreatNewSmartCollection/View/CreateNewBrandViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "viewDidAppear(_:)"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "CreateBrandButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -12,6 +12,17 @@
 		AB0DC9D029B90E7A008302AF /* RetrieveCustomersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9CF29B90E7A008302AF /* RetrieveCustomersViewController.swift */; };
 		AB0DC9D229B90FE5008302AF /* RetrieveCustomersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9D129B90FE5008302AF /* RetrieveCustomersTableViewCell.swift */; };
 		AB0DC9D529B926D9008302AF /* DeleteCustomerNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0DC9D429B926D9008302AF /* DeleteCustomerNetworkService.swift */; };
+		AB53722829BD238300C2B2E6 /* CreateNewBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53722729BD238300C2B2E6 /* CreateNewBrandViewController.swift */; };
+		AB53722A29BD248400C2B2E6 /* CreateNewBrandNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53722929BD248400C2B2E6 /* CreateNewBrandNetworkManager.swift */; };
+		AB53722C29BD256F00C2B2E6 /* CreateNewBrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53722B29BD256F00C2B2E6 /* CreateNewBrandViewModel.swift */; };
+		AB53723429BD3D9F00C2B2E6 /* Brands.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53723329BD3D9F00C2B2E6 /* Brands.swift */; };
+		AB53723629BD3DE500C2B2E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53723529BD3DE500C2B2E6 /* HomeViewController.swift */; };
+		AB53723829BD3E4300C2B2E6 /* BrandsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53723729BD3E4300C2B2E6 /* BrandsCollectionViewCell.swift */; };
+		AB53723A29BD3E8800C2B2E6 /* AdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53723929BD3E8800C2B2E6 /* AdsCollectionViewCell.swift */; };
+		AB53723C29BD3ED200C2B2E6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53723B29BD3ED200C2B2E6 /* HomeViewModel.swift */; };
+		AB53724329BD59D400C2B2E6 /* DeletBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53724229BD59D400C2B2E6 /* DeletBrandViewController.swift */; };
+		AB53724529BD5A5D00C2B2E6 /* DeleteBrandNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53724429BD5A5C00C2B2E6 /* DeleteBrandNetworkManager.swift */; };
+		AB53724729BD5AC100C2B2E6 /* DeleteBrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53724629BD5AC100C2B2E6 /* DeleteBrandViewModel.swift */; };
 		AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47129B6E0C800CE814B /* LoginViewModel.swift */; };
 		AB73B47429B6E12400CE814B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47329B6E12400CE814B /* LoginViewController.swift */; };
 		AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */; };
@@ -71,6 +82,17 @@
 		AB0DC9CF29B90E7A008302AF /* RetrieveCustomersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersViewController.swift; sourceTree = "<group>"; };
 		AB0DC9D129B90FE5008302AF /* RetrieveCustomersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveCustomersTableViewCell.swift; sourceTree = "<group>"; };
 		AB0DC9D429B926D9008302AF /* DeleteCustomerNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCustomerNetworkService.swift; sourceTree = "<group>"; };
+		AB53722729BD238300C2B2E6 /* CreateNewBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewBrandViewController.swift; sourceTree = "<group>"; };
+		AB53722929BD248400C2B2E6 /* CreateNewBrandNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewBrandNetworkManager.swift; sourceTree = "<group>"; };
+		AB53722B29BD256F00C2B2E6 /* CreateNewBrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewBrandViewModel.swift; sourceTree = "<group>"; };
+		AB53723329BD3D9F00C2B2E6 /* Brands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brands.swift; sourceTree = "<group>"; };
+		AB53723529BD3DE500C2B2E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB53723729BD3E4300C2B2E6 /* BrandsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB53723929BD3E8800C2B2E6 /* AdsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB53723B29BD3ED200C2B2E6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AB53724229BD59D400C2B2E6 /* DeletBrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletBrandViewController.swift; sourceTree = "<group>"; };
+		AB53724429BD5A5C00C2B2E6 /* DeleteBrandNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteBrandNetworkManager.swift; sourceTree = "<group>"; };
+		AB53724629BD5AC100C2B2E6 /* DeleteBrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteBrandViewModel.swift; sourceTree = "<group>"; };
 		AB73B47129B6E0C800CE814B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AB73B47329B6E12400CE814B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AB73B47529B6E18300CE814B /* CustomerLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerLoginModel.swift; sourceTree = "<group>"; };
@@ -203,6 +225,136 @@
 			path = NetworkServices;
 			sourceTree = "<group>";
 		};
+		AB53722229BD1F1800C2B2E6 /* SmartCollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				AB53723D29BD596C00C2B2E6 /* DeletSmartCollection */,
+				AB53722E29BD3CF500C2B2E6 /* RetrieveSmartCollections */,
+				AB53722329BD22D600C2B2E6 /* CreatNewSmartCollection */,
+			);
+			path = SmartCollectionViews;
+			sourceTree = "<group>";
+		};
+		AB53722329BD22D600C2B2E6 /* CreatNewSmartCollection */ = {
+			isa = PBXGroup;
+			children = (
+				AB53722629BD233F00C2B2E6 /* Model */,
+				AB53722529BD233000C2B2E6 /* View */,
+				AB53722429BD232200C2B2E6 /* ViewModel */,
+			);
+			path = CreatNewSmartCollection;
+			sourceTree = "<group>";
+		};
+		AB53722429BD232200C2B2E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB53722B29BD256F00C2B2E6 /* CreateNewBrandViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB53722529BD233000C2B2E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB53722729BD238300C2B2E6 /* CreateNewBrandViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB53722629BD233F00C2B2E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB53722D29BD280C00C2B2E6 /* NetrorkModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB53722D29BD280C00C2B2E6 /* NetrorkModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB53722929BD248400C2B2E6 /* CreateNewBrandNetworkManager.swift */,
+			);
+			path = NetrorkModel;
+			sourceTree = "<group>";
+		};
+		AB53722E29BD3CF500C2B2E6 /* RetrieveSmartCollections */ = {
+			isa = PBXGroup;
+			children = (
+				AB53723129BD3D2800C2B2E6 /* Model */,
+				AB53723029BD3D1F00C2B2E6 /* View */,
+				AB53722F29BD3D0F00C2B2E6 /* ViewModel */,
+			);
+			path = RetrieveSmartCollections;
+			sourceTree = "<group>";
+		};
+		AB53722F29BD3D0F00C2B2E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB53723B29BD3ED200C2B2E6 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB53723029BD3D1F00C2B2E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB53723529BD3DE500C2B2E6 /* HomeViewController.swift */,
+				AB53723729BD3E4300C2B2E6 /* BrandsCollectionViewCell.swift */,
+				AB53723929BD3E8800C2B2E6 /* AdsCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB53723129BD3D2800C2B2E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB53723229BD3D7B00C2B2E6 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB53723229BD3D7B00C2B2E6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB53723329BD3D9F00C2B2E6 /* Brands.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		AB53723D29BD596C00C2B2E6 /* DeletSmartCollection */ = {
+			isa = PBXGroup;
+			children = (
+				AB53724029BD598F00C2B2E6 /* Model */,
+				AB53723F29BD598800C2B2E6 /* View */,
+				AB53723E29BD597E00C2B2E6 /* ViewModel */,
+			);
+			path = DeletSmartCollection;
+			sourceTree = "<group>";
+		};
+		AB53723E29BD597E00C2B2E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB53724629BD5AC100C2B2E6 /* DeleteBrandViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB53723F29BD598800C2B2E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB53724229BD59D400C2B2E6 /* DeletBrandViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB53724029BD598F00C2B2E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB53724429BD5A5C00C2B2E6 /* DeleteBrandNetworkManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		AB73B46929B6DF0500CE814B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +384,7 @@
 		AB73B46C29B6DFFE00CE814B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AB53722229BD1F1800C2B2E6 /* SmartCollectionViews */,
 				AB86A12F29BBDF2A00F1CEB1 /* ProductViews */,
 				AB73B48D29B7060900CE814B /* CategoriesViews */,
 				AB73B48129B6FBA100CE814B /* CustomerViews */,
@@ -724,9 +877,13 @@
 			files = (
 				AB86A14129BC038100F1CEB1 /* AddProductNetworkService.swift in Sources */,
 				AB0DC9CC29B90A2E008302AF /* GenericAPIService.swift in Sources */,
+				AB53723429BD3D9F00C2B2E6 /* Brands.swift in Sources */,
 				AB73B4A929B7135900CE814B /* CategoryCollectionViewCell.swift in Sources */,
+				AB53722C29BD256F00C2B2E6 /* CreateNewBrandViewModel.swift in Sources */,
 				AB86A15129BC1AE500F1CEB1 /* ProductDetailsViewController.swift in Sources */,
 				AB86A13629BBE03500F1CEB1 /* ProductCollectionViewCell.swift in Sources */,
+				AB53722829BD238300C2B2E6 /* CreateNewBrandViewController.swift in Sources */,
+				AB53723829BD3E4300C2B2E6 /* BrandsCollectionViewCell.swift in Sources */,
 				AB73B4A529B712BC00CE814B /* CategoryViewModel.swift in Sources */,
 				AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */,
 				AB86A13F29BBFDFC00F1CEB1 /* AddNewProductViewController.swift in Sources */,
@@ -735,12 +892,17 @@
 				AB84951329B63CF400E1631C /* AppDelegate.swift in Sources */,
 				AB86A13829BBE07100F1CEB1 /* ProductsViewModel.swift in Sources */,
 				AB0DC9D529B926D9008302AF /* DeleteCustomerNetworkService.swift in Sources */,
+				AB53724529BD5A5D00C2B2E6 /* DeleteBrandNetworkManager.swift in Sources */,
 				AB73B49D29B70D9500CE814B /* Category.swift in Sources */,
+				AB53724729BD5AC100C2B2E6 /* DeleteBrandViewModel.swift in Sources */,
 				AB73B48629B6FC0D00CE814B /* SignUpViewController.swift in Sources */,
 				AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */,
 				AB86A13429BBDFB500F1CEB1 /* ProductsViewController.swift in Sources */,
+				AB53724329BD59D400C2B2E6 /* DeletBrandViewController.swift in Sources */,
 				AB86A14329BC059A00F1CEB1 /* AddProductViewModel.swift in Sources */,
+				AB53722A29BD248400C2B2E6 /* CreateNewBrandNetworkManager.swift in Sources */,
 				AB0DC9D029B90E7A008302AF /* RetrieveCustomersViewController.swift in Sources */,
+				AB53723629BD3DE500C2B2E6 /* HomeViewController.swift in Sources */,
 				AB73B47829B6E1A100CE814B /* LoginNetworkService.swift in Sources */,
 				AB73B48829B6FC4E00CE814B /* AddCustomerNetworkManager.swift in Sources */,
 				AB73B48A29B6FC7300CE814B /* SignupViewModel.swift in Sources */,
@@ -750,7 +912,9 @@
 				AB73B48C29B6FCDF00CE814B /* CustomerModel.swift in Sources */,
 				AB86A14B29BC193300F1CEB1 /* ProductDetailsViewModel.swift in Sources */,
 				AB84951529B63CF400E1631C /* SceneDelegate.swift in Sources */,
+				AB53723C29BD3ED200C2B2E6 /* HomeViewModel.swift in Sources */,
 				AB0DC9D229B90FE5008302AF /* RetrieveCustomersTableViewCell.swift in Sources */,
+				AB53723A29BD3E8800C2B2E6 /* AdsCollectionViewCell.swift in Sources */,
 				AB73B47F29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift in Sources */,
 				AB86A14929BC18F500F1CEB1 /* ProductDetailModel.swift in Sources */,
 			);
