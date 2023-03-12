@@ -10,9 +10,11 @@ struct priceModel : Codable {
     var price_rule : PriceRule
 }
 struct PriceRule : Codable {
-    
-    var id : Int
-   
+    var id : Int?
+    var title : String?
+}
+struct AllpriceModel : Decodable {
+    var price_rules : [PriceRule]?
 }
 
 

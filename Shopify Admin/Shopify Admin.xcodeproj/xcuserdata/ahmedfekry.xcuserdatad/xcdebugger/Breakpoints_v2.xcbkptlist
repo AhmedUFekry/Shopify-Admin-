@@ -20,5 +20,99 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61ED9CA2-3194-469D-90D6-31B5C31FA490"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopify Admin/Modules/CouponViews/RetrieveCoupons/ViewModel/CopounsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AllCouponsResponse"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "61ED9CA2-3194-469D-90D6-31B5C31FA490 - e906fca5da01afdd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shopify_Admin.CopounsViewModel.AllCouponsResponse.getter : Swift.Optional&lt;Shopify_Admin.AllpriceModel&gt;"
+                  moduleName = "Shopify Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedfekry/Desktop/ITI%20G.Project/Shopify%20Admin/Shopify%20Admin/Modules/CouponViews/RetrieveCoupons/ViewModel/CopounsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  uuid = "61ED9CA2-3194-469D-90D6-31B5C31FA490 - aea2f6ea0d77eac1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shopify_Admin.CopounsViewModel.AllCouponsResponse.setter : Swift.Optional&lt;Shopify_Admin.AllpriceModel&gt;"
+                  moduleName = "Shopify Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedfekry/Desktop/ITI%20G.Project/Shopify%20Admin/Shopify%20Admin/Modules/CouponViews/RetrieveCoupons/ViewModel/CopounsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  uuid = "61ED9CA2-3194-469D-90D6-31B5C31FA490 - f6ac790b75762e10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shopify_Admin.CopounsViewModel.AllCouponsResponse.modify : Swift.Optional&lt;Shopify_Admin.AllpriceModel&gt;"
+                  moduleName = "Shopify Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedfekry/Desktop/ITI%20G.Project/Shopify%20Admin/Shopify%20Admin/Modules/CouponViews/RetrieveCoupons/ViewModel/CopounsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "61ED9CA2-3194-469D-90D6-31B5C31FA490 - d06fee06666c3856"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shopify_Admin.CopounsViewModel.AllCouponsResponse.modify : Swift.Optional&lt;Shopify_Admin.AllpriceModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Shopify Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmedfekry/Desktop/ITI%20G.Project/Shopify%20Admin/Shopify%20Admin/Modules/CouponViews/RetrieveCoupons/ViewModel/CopounsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51E2B0AD-B2E4-40AD-8CCA-EF5DC792A0C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shopify Admin/Model/NetworkServices/GenericAPIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchFromApi(API_URL:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

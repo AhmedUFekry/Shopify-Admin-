@@ -62,6 +62,10 @@
 		ABCBFF9729BE86D7008CB720 /* CreateNewCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9629BE86D7008CB720 /* CreateNewCouponViewController.swift */; };
 		ABCBFF9929BE86EC008CB720 /* CreateNewCouponViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9829BE86EC008CB720 /* CreateNewCouponViewModel.swift */; };
 		ABCBFF9B29BE9107008CB720 /* pricedataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9A29BE9107008CB720 /* pricedataModel.swift */; };
+		ABCBFFA129BEBC73008CB720 /* CopounsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFFA029BEBC73008CB720 /* CopounsViewController.swift */; };
+		ABCBFFA329BEBFF3008CB720 /* CopounsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFFA229BEBFF3008CB720 /* CopounsViewModel.swift */; };
+		ABCBFFA529BEC023008CB720 /* CopounsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFFA429BEC023008CB720 /* CopounsTableViewCell.swift */; };
+		ABCBFFA729BEE645008CB720 /* delete copoun networkmanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFFA629BEE645008CB720 /* delete copoun networkmanager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +143,10 @@
 		ABCBFF9629BE86D7008CB720 /* CreateNewCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCouponViewController.swift; sourceTree = "<group>"; };
 		ABCBFF9829BE86EC008CB720 /* CreateNewCouponViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCouponViewModel.swift; sourceTree = "<group>"; };
 		ABCBFF9A29BE9107008CB720 /* pricedataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pricedataModel.swift; sourceTree = "<group>"; };
+		ABCBFFA029BEBC73008CB720 /* CopounsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopounsViewController.swift; sourceTree = "<group>"; };
+		ABCBFFA229BEBFF3008CB720 /* CopounsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopounsViewModel.swift; sourceTree = "<group>"; };
+		ABCBFFA429BEC023008CB720 /* CopounsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopounsTableViewCell.swift; sourceTree = "<group>"; };
+		ABCBFFA629BEE645008CB720 /* delete copoun networkmanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "delete copoun networkmanager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -750,6 +758,7 @@
 		ABCBFF8A29BE8550008CB720 /* CouponViews */ = {
 			isa = PBXGroup;
 			children = (
+				ABCBFF9C29BEB830008CB720 /* Retrieve+Delete Coupons */,
 				ABCBFF8B29BE856C008CB720 /* CreateNewCoupon */,
 			);
 			path = CouponViews;
@@ -805,6 +814,41 @@
 				ABCBFF9A29BE9107008CB720 /* pricedataModel.swift */,
 			);
 			path = DataModels;
+			sourceTree = "<group>";
+		};
+		ABCBFF9C29BEB830008CB720 /* Retrieve+Delete Coupons */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF9F29BEB9C5008CB720 /* Model */,
+				ABCBFF9E29BEB9BD008CB720 /* View */,
+				ABCBFF9D29BEB9AD008CB720 /* ViewModel */,
+			);
+			path = "Retrieve+Delete Coupons";
+			sourceTree = "<group>";
+		};
+		ABCBFF9D29BEB9AD008CB720 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFFA229BEBFF3008CB720 /* CopounsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ABCBFF9E29BEB9BD008CB720 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFFA029BEBC73008CB720 /* CopounsViewController.swift */,
+				ABCBFFA429BEC023008CB720 /* CopounsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABCBFF9F29BEB9C5008CB720 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFFA629BEE645008CB720 /* delete copoun networkmanager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -948,8 +992,11 @@
 			files = (
 				AB86A14129BC038100F1CEB1 /* AddProductNetworkService.swift in Sources */,
 				AB0DC9CC29B90A2E008302AF /* GenericAPIService.swift in Sources */,
+				ABCBFFA329BEBFF3008CB720 /* CopounsViewModel.swift in Sources */,
+				ABCBFFA529BEC023008CB720 /* CopounsTableViewCell.swift in Sources */,
 				AB53723429BD3D9F00C2B2E6 /* Brands.swift in Sources */,
 				AB73B4A929B7135900CE814B /* CategoryCollectionViewCell.swift in Sources */,
+				ABCBFFA729BEE645008CB720 /* delete copoun networkmanager.swift in Sources */,
 				AB53722C29BD256F00C2B2E6 /* CreateNewBrandViewModel.swift in Sources */,
 				ABCBFF9929BE86EC008CB720 /* CreateNewCouponViewModel.swift in Sources */,
 				AB86A15129BC1AE500F1CEB1 /* ProductDetailsViewController.swift in Sources */,
@@ -958,6 +1005,7 @@
 				AB53723829BD3E4300C2B2E6 /* BrandsCollectionViewCell.swift in Sources */,
 				AB73B4A529B712BC00CE814B /* CategoryViewModel.swift in Sources */,
 				AB73B47229B6E0C800CE814B /* LoginViewModel.swift in Sources */,
+				ABCBFFA129BEBC73008CB720 /* CopounsViewController.swift in Sources */,
 				AB86A13F29BBFDFC00F1CEB1 /* AddNewProductViewController.swift in Sources */,
 				AB86A14F29BC1AAD00F1CEB1 /* ProductDetailsCellViewController.swift in Sources */,
 				AB86A15529BC1BDE00F1CEB1 /* DeletProductNetworkManager.swift in Sources */,

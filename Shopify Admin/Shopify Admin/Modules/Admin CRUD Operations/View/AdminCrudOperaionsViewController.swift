@@ -86,13 +86,15 @@ class AdminCrudOperaionsViewController: UIViewController {
     }
     
     @IBAction func RetrieveCouponsButton(_ sender: Any) {
+        let retrieveCop = self.storyboard?.instantiateViewController(withIdentifier: "CopounsViewController") as! CopounsViewController
+        
+        self.navigationController?.pushViewController(retrieveCop, animated: true)
+        
     }
     
     @IBAction func UpdateCouponsButton(_ sender: Any) {
     }
     
-    @IBAction func DeleteCouponsButton(_ sender: Any) {
-    }
     //*********************************
     
     

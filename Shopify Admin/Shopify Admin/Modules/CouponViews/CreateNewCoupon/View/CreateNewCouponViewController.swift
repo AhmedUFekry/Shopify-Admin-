@@ -52,6 +52,9 @@ class CreateNewCouponViewController: UIViewController {
     @IBAction func PublishCouponBottun(_ sender: Any) {
         DispatchQueue.main.async {
             self.CreateNewCouponViewModelObj?.addNewCoupon(priceRileID: self.priceRuleID!, codeName: self.codeTitleTextField.text!)
+            let retrieveCop = self.storyboard?.instantiateViewController(withIdentifier: "CopounsViewController") as! CopounsViewController
+            
+            self.navigationController?.pushViewController(retrieveCop, animated: true)
         }
         
     }
