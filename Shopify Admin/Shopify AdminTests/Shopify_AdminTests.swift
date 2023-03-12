@@ -10,8 +10,10 @@ import XCTest
 
 final class Shopify_AdminTests: XCTestCase {
 
+    var brandViewModel : HomeViewModel?
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        brandViewModel = HomeViewModel()
     }
 
     override func tearDownWithError() throws {
@@ -31,6 +33,22 @@ final class Shopify_AdminTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    func testgetAllBrands(){
+        
+        let exp = expectation(description: "wating for API...")
+        
+        brandViewModel?.getAllBrands()
+        brandViewModel?.bindingBrands = {
+            if let data : Brands = self.brandViewModel?.ObservableBrands {
+                XCTAssertNotNil(data)
+                exp.fulfill()
+            }else{
+                XCTFail()
+            }
+            
+        }
+        waitForExpectations(timeout: 5)
     }
 
 }
