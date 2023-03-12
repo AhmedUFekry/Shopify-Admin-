@@ -23,7 +23,7 @@ class DeletBrandViewController: UIViewController {
     @IBAction func DeleteBrandButton(_ sender: Any) {
         
         DeleteBrandViewModelObj?.deletBrand(brandID: brandID!)
-        
+        self.navigationController?.popViewController(animated: true)
     }
     
     
