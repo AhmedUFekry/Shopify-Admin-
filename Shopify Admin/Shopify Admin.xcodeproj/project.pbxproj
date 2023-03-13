@@ -57,6 +57,11 @@
 		AB86A14F29BC1AAD00F1CEB1 /* ProductDetailsCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A14E29BC1AAD00F1CEB1 /* ProductDetailsCellViewController.swift */; };
 		AB86A15129BC1AE500F1CEB1 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A15029BC1AE500F1CEB1 /* ProductDetailsViewController.swift */; };
 		AB86A15529BC1BDE00F1CEB1 /* DeletProductNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB86A15429BC1BDE00F1CEB1 /* DeletProductNetworkManager.swift */; };
+		ABCBFF9229BE85F2008CB720 /* PriceRulesNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9129BE85F2008CB720 /* PriceRulesNetworkManager.swift */; };
+		ABCBFF9529BE862F008CB720 /* CouponNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9429BE862F008CB720 /* CouponNetworkManager.swift */; };
+		ABCBFF9729BE86D7008CB720 /* CreateNewCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9629BE86D7008CB720 /* CreateNewCouponViewController.swift */; };
+		ABCBFF9929BE86EC008CB720 /* CreateNewCouponViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9829BE86EC008CB720 /* CreateNewCouponViewModel.swift */; };
+		ABCBFF9B29BE9107008CB720 /* pricedataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCBFF9A29BE9107008CB720 /* pricedataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +134,11 @@
 		AB86A14E29BC1AAD00F1CEB1 /* ProductDetailsCellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsCellViewController.swift; sourceTree = "<group>"; };
 		AB86A15029BC1AE500F1CEB1 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
 		AB86A15429BC1BDE00F1CEB1 /* DeletProductNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletProductNetworkManager.swift; sourceTree = "<group>"; };
+		ABCBFF9129BE85F2008CB720 /* PriceRulesNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceRulesNetworkManager.swift; sourceTree = "<group>"; };
+		ABCBFF9429BE862F008CB720 /* CouponNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponNetworkManager.swift; sourceTree = "<group>"; };
+		ABCBFF9629BE86D7008CB720 /* CreateNewCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCouponViewController.swift; sourceTree = "<group>"; };
+		ABCBFF9829BE86EC008CB720 /* CreateNewCouponViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewCouponViewModel.swift; sourceTree = "<group>"; };
+		ABCBFF9A29BE9107008CB720 /* pricedataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pricedataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -384,6 +394,7 @@
 		AB73B46C29B6DFFE00CE814B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				ABCBFF8A29BE8550008CB720 /* CouponViews */,
 				AB53722229BD1F1800C2B2E6 /* SmartCollectionViews */,
 				AB86A12F29BBDF2A00F1CEB1 /* ProductViews */,
 				AB73B48D29B7060900CE814B /* CategoriesViews */,
@@ -736,6 +747,66 @@
 			path = NetworkModel;
 			sourceTree = "<group>";
 		};
+		ABCBFF8A29BE8550008CB720 /* CouponViews */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF8B29BE856C008CB720 /* CreateNewCoupon */,
+			);
+			path = CouponViews;
+			sourceTree = "<group>";
+		};
+		ABCBFF8B29BE856C008CB720 /* CreateNewCoupon */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF8E29BE858F008CB720 /* Model */,
+				ABCBFF8D29BE8588008CB720 /* View */,
+				ABCBFF8C29BE857C008CB720 /* ViewModel */,
+			);
+			path = CreateNewCoupon;
+			sourceTree = "<group>";
+		};
+		ABCBFF8C29BE857C008CB720 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF9829BE86EC008CB720 /* CreateNewCouponViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ABCBFF8D29BE8588008CB720 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF9629BE86D7008CB720 /* CreateNewCouponViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABCBFF8E29BE858F008CB720 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF9029BE85A7008CB720 /* DataModels */,
+				ABCBFF8F29BE859A008CB720 /* NetworkModels */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABCBFF8F29BE859A008CB720 /* NetworkModels */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF9129BE85F2008CB720 /* PriceRulesNetworkManager.swift */,
+				ABCBFF9429BE862F008CB720 /* CouponNetworkManager.swift */,
+			);
+			path = NetworkModels;
+			sourceTree = "<group>";
+		};
+		ABCBFF9029BE85A7008CB720 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBFF9A29BE9107008CB720 /* pricedataModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -880,6 +951,7 @@
 				AB53723429BD3D9F00C2B2E6 /* Brands.swift in Sources */,
 				AB73B4A929B7135900CE814B /* CategoryCollectionViewCell.swift in Sources */,
 				AB53722C29BD256F00C2B2E6 /* CreateNewBrandViewModel.swift in Sources */,
+				ABCBFF9929BE86EC008CB720 /* CreateNewCouponViewModel.swift in Sources */,
 				AB86A15129BC1AE500F1CEB1 /* ProductDetailsViewController.swift in Sources */,
 				AB86A13629BBE03500F1CEB1 /* ProductCollectionViewCell.swift in Sources */,
 				AB53722829BD238300C2B2E6 /* CreateNewBrandViewController.swift in Sources */,
@@ -896,6 +968,7 @@
 				AB73B49D29B70D9500CE814B /* Category.swift in Sources */,
 				AB53724729BD5AC100C2B2E6 /* DeleteBrandViewModel.swift in Sources */,
 				AB73B48629B6FC0D00CE814B /* SignUpViewController.swift in Sources */,
+				ABCBFF9729BE86D7008CB720 /* CreateNewCouponViewController.swift in Sources */,
 				AB73B47629B6E18300CE814B /* CustomerLoginModel.swift in Sources */,
 				AB86A13429BBDFB500F1CEB1 /* ProductsViewController.swift in Sources */,
 				AB53724329BD59D400C2B2E6 /* DeletBrandViewController.swift in Sources */,
@@ -916,6 +989,9 @@
 				AB0DC9D229B90FE5008302AF /* RetrieveCustomersTableViewCell.swift in Sources */,
 				AB53723A29BD3E8800C2B2E6 /* AdsCollectionViewCell.swift in Sources */,
 				AB73B47F29B6EDDC00CE814B /* AdminCrudOperaionsViewController.swift in Sources */,
+				ABCBFF9B29BE9107008CB720 /* pricedataModel.swift in Sources */,
+				ABCBFF9229BE85F2008CB720 /* PriceRulesNetworkManager.swift in Sources */,
+				ABCBFF9529BE862F008CB720 /* CouponNetworkManager.swift in Sources */,
 				AB86A14929BC18F500F1CEB1 /* ProductDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -80,6 +80,9 @@ class AdminCrudOperaionsViewController: UIViewController {
     //Coupons Buttons******************
     
     @IBAction func CreateCouponsButton(_ sender: Any) {
+        let createCop = self.storyboard?.instantiateViewController(withIdentifier: "CreateNewCouponViewController") as! CreateNewCouponViewController
+        
+        self.navigationController?.pushViewController(createCop, animated: true)
     }
     
     @IBAction func RetrieveCouponsButton(_ sender: Any) {
