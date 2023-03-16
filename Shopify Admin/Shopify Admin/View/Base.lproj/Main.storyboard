@@ -676,6 +676,7 @@
                         <outlet property="email" destination="r3p-ZG-fF1" id="KNw-yY-XSV"/>
                         <outlet property="lastName" destination="pe8-Jn-x3j" id="bLP-jS-2vJ"/>
                         <outlet property="password" destination="Hd5-gc-3n7" id="Smf-mg-ojc"/>
+                        <outlet property="userImageView" destination="DuA-Hc-YqO" id="guY-P4-Eyf"/>
                         <outlet property="userName" destination="BGd-gO-LAt" id="ELc-1a-bqA"/>
                     </connections>
                 </viewController>

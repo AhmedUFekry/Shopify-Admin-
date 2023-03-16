@@ -15,6 +15,8 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var ConfirmPassword: UITextField!
     @IBOutlet weak var lastName: UITextField!
     
+    @IBOutlet weak var userImageView: UIImageView!
+    
     var ViewModel:SignUpViewModel?
     var newCustomer:Customer?
     var confirmPasswordCheck :String?
@@ -29,7 +31,7 @@ class SignUpViewController: UIViewController {
         textFieldBorder(textField: email)
         textFieldBorder(textField: password)
         textFieldBorder(textField: ConfirmPassword)
-        
+        userImageView.image = UIImage(named: "new")
         
 
             
