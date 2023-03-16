@@ -28,8 +28,7 @@ class AdminCrudOperaionsViewController: UIViewController {
         self.navigationController?.pushViewController(getCustomers, animated: true)
     }
     
-    @IBAction func UpdateCusomerButton(_ sender: Any) {
-    }
+   
     //**********************************
     
     
@@ -70,11 +69,7 @@ class AdminCrudOperaionsViewController: UIViewController {
         
     }
     
-    @IBAction func UpdateInventoryButton(_ sender: Any) {
-    }
-    
-    @IBAction func DeleteInventoryButton(_ sender: Any) {
-    }
+  
     //***********************************
     
     //Coupons Buttons******************
@@ -92,8 +87,7 @@ class AdminCrudOperaionsViewController: UIViewController {
         
     }
     
-    @IBAction func UpdateCouponsButton(_ sender: Any) {
-    }
+    
     
     //*********************************
     

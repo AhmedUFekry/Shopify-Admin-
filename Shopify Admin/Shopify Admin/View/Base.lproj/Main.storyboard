@@ -67,7 +67,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqn-0Q-QEn">
-                                <rect key="frame" x="73" y="531" width="75" height="35"/>
+                                <rect key="frame" x="125" y="531" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Create">
                                     <backgroundConfiguration key="background">
@@ -91,7 +91,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hvT-ed-73p">
-                                <rect key="frame" x="73" y="659" width="75" height="35"/>
+                                <rect key="frame" x="125" y="659" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Create">
                                     <backgroundConfiguration key="background">
@@ -103,7 +103,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJy-sh-4H1">
-                                <rect key="frame" x="152" y="659" width="87" height="35"/>
+                                <rect key="frame" x="204" y="659" width="87" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Retrieve">
                                     <backgroundConfiguration key="background">
@@ -114,20 +114,8 @@
                                     <action selector="RetrieveCouponsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mYZ-qM-LsM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMD-QU-YK9">
-                                <rect key="frame" x="242" y="659" width="80" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Update">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="UpdateCouponsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JBI-tO-N1c"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T9c-uS-6OW">
-                                <rect key="frame" x="73" y="278" width="75" height="35"/>
+                                <rect key="frame" x="125" y="278" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Create">
                                     <backgroundConfiguration key="background">
@@ -139,7 +127,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MyR-zW-LqO">
-                                <rect key="frame" x="151" y="278" width="87" height="35"/>
+                                <rect key="frame" x="203" y="278" width="87" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Retrieve">
                                     <backgroundConfiguration key="background">
@@ -150,20 +138,8 @@
                                     <action selector="RetrieveCusomerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eft-sX-ggD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p5W-Vs-Sfy">
-                                <rect key="frame" x="241" y="278" width="80" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Update">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="UpdateCusomerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LNP-9K-1SP"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Nn-Jb-sFj">
-                                <rect key="frame" x="73" y="404" width="75" height="35"/>
+                                <rect key="frame" x="125" y="404" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Create">
                                     <backgroundConfiguration key="background">
@@ -175,7 +151,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE8-ap-yvh">
-                                <rect key="frame" x="151" y="404" width="87" height="35"/>
+                                <rect key="frame" x="203" y="404" width="87" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Retrieve">
                                     <backgroundConfiguration key="background">
@@ -186,20 +162,8 @@
                                     <action selector="RetrieveProductButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZBd-bS-k2k"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywz-ve-OG6">
-                                <rect key="frame" x="241" y="404" width="80" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Update">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="UpdateProductButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9T2-7F-hoF"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4U4-kY-z7x">
-                                <rect key="frame" x="151" y="531" width="87" height="35"/>
+                                <rect key="frame" x="203" y="531" width="87" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Retrieve">
                                     <backgroundConfiguration key="background">
@@ -210,56 +174,45 @@
                                     <action selector="RetrieveInventoryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uds-iq-1v2"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7n-pp-dRa">
-                                <rect key="frame" x="241" y="531" width="80" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Update">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                    </backgroundConfiguration>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="UpdateInventoryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tnx-fs-hIL"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="hvT-ed-73p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="5av-uX-Ky8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2pC-Y7-RsR" secondAttribute="trailing" symbolic="YES" id="4Ug-0x-5TG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MyR-zW-LqO" secondAttribute="trailing" symbolic="YES" id="53h-UE-1aG"/>
+                            <constraint firstItem="hvT-ed-73p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="5av-uX-Ky8"/>
                             <constraint firstItem="6Jx-3N-YvN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="5gE-Ks-p7j"/>
-                            <constraint firstItem="p5W-Vs-Sfy" firstAttribute="top" secondItem="2pC-Y7-RsR" secondAttribute="bottom" constant="32" id="BPw-s1-4eg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="57H-42-YqJ" secondAttribute="trailing" symbolic="YES" id="90K-aY-6qa"/>
                             <constraint firstItem="OJy-sh-4H1" firstAttribute="top" secondItem="6Jx-3N-YvN" secondAttribute="bottom" constant="32" id="BUb-NG-6Iq"/>
                             <constraint firstItem="T9c-uS-6OW" firstAttribute="top" secondItem="2pC-Y7-RsR" secondAttribute="bottom" constant="32" id="CX5-3w-QiC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hE8-ap-yvh" secondAttribute="trailing" symbolic="YES" id="FGu-Ep-FKW"/>
                             <constraint firstItem="4U4-kY-z7x" firstAttribute="top" secondItem="CWf-i9-IXE" secondAttribute="bottom" constant="32" id="GWh-Y5-tRC"/>
                             <constraint firstItem="6Jx-3N-YvN" firstAttribute="top" secondItem="Iqn-0Q-QEn" secondAttribute="bottom" constant="33" id="LGQ-tz-N22"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="O80-Ph-8ht" secondAttribute="trailing" symbolic="YES" id="LWf-x6-cif"/>
                             <constraint firstItem="2pC-Y7-RsR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="Luo-9d-xUJ"/>
                             <constraint firstItem="hvT-ed-73p" firstAttribute="top" secondItem="6Jx-3N-YvN" secondAttribute="bottom" constant="32" id="MRQ-x8-u2c"/>
-                            <constraint firstItem="p5W-Vs-Sfy" firstAttribute="leading" secondItem="MyR-zW-LqO" secondAttribute="trailing" constant="3" id="O5f-qv-FUs"/>
-                            <constraint firstItem="T9c-uS-6OW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="PL8-Ld-6rU"/>
-                            <constraint firstItem="Iqn-0Q-QEn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="SJG-7Y-UmN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CWf-i9-IXE" secondAttribute="trailing" symbolic="YES" id="P9e-SE-c1O"/>
+                            <constraint firstItem="T9c-uS-6OW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="PL8-Ld-6rU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OJy-sh-4H1" secondAttribute="trailing" symbolic="YES" id="Qci-cS-805"/>
+                            <constraint firstItem="Iqn-0Q-QEn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="SJG-7Y-UmN"/>
                             <constraint firstItem="CWf-i9-IXE" firstAttribute="top" secondItem="9Nn-Jb-sFj" secondAttribute="bottom" constant="32" id="SSh-lh-u8v"/>
                             <constraint firstItem="57H-42-YqJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="SkQ-b5-dKO"/>
                             <constraint firstItem="hE8-ap-yvh" firstAttribute="leading" secondItem="9Nn-Jb-sFj" secondAttribute="trailing" constant="3" id="T6l-1r-vBk"/>
                             <constraint firstItem="57H-42-YqJ" firstAttribute="top" secondItem="T9c-uS-6OW" secondAttribute="bottom" constant="31" id="VOb-fd-y67"/>
-                            <constraint firstItem="c7n-pp-dRa" firstAttribute="top" secondItem="CWf-i9-IXE" secondAttribute="bottom" constant="32" id="XTA-Tp-waS"/>
                             <constraint firstItem="OJy-sh-4H1" firstAttribute="leading" secondItem="hvT-ed-73p" secondAttribute="trailing" constant="4" id="cKA-H9-b08"/>
-                            <constraint firstItem="ywz-ve-OG6" firstAttribute="top" secondItem="57H-42-YqJ" secondAttribute="bottom" constant="32" id="dF8-S3-lpN"/>
-                            <constraint firstItem="ywz-ve-OG6" firstAttribute="leading" secondItem="hE8-ap-yvh" secondAttribute="trailing" constant="3" id="dG1-kR-mYo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Jx-3N-YvN" secondAttribute="trailing" symbolic="YES" id="dg6-nk-aAn"/>
                             <constraint firstItem="O80-Ph-8ht" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="67" id="f5x-Ra-zQM"/>
-                            <constraint firstItem="xMD-QU-YK9" firstAttribute="top" secondItem="6Jx-3N-YvN" secondAttribute="bottom" constant="32" id="fxu-ID-LBA"/>
-                            <constraint firstItem="9Nn-Jb-sFj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="g6t-zP-eSn"/>
+                            <constraint firstItem="9Nn-Jb-sFj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="g6t-zP-eSn"/>
                             <constraint firstItem="MyR-zW-LqO" firstAttribute="leading" secondItem="T9c-uS-6OW" secondAttribute="trailing" constant="3" id="gV5-e0-vrs"/>
                             <constraint firstItem="9Nn-Jb-sFj" firstAttribute="top" secondItem="57H-42-YqJ" secondAttribute="bottom" constant="32" id="gbX-Ql-dlv"/>
                             <constraint firstItem="O80-Ph-8ht" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="mVV-ZY-laq"/>
                             <constraint firstItem="CWf-i9-IXE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="o5p-k3-AcP"/>
                             <constraint firstItem="hE8-ap-yvh" firstAttribute="top" secondItem="57H-42-YqJ" secondAttribute="bottom" constant="32" id="oPc-VD-wbx"/>
                             <constraint firstItem="MyR-zW-LqO" firstAttribute="top" secondItem="2pC-Y7-RsR" secondAttribute="bottom" constant="32" id="pIL-EG-8xh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4U4-kY-z7x" secondAttribute="trailing" symbolic="YES" id="pWr-gD-Uxs"/>
                             <constraint firstItem="4U4-kY-z7x" firstAttribute="leading" secondItem="Iqn-0Q-QEn" secondAttribute="trailing" constant="3" id="pYa-1n-bEL"/>
                             <constraint firstItem="2pC-Y7-RsR" firstAttribute="top" secondItem="O80-Ph-8ht" secondAttribute="bottom" constant="62" id="pt2-rs-ibF"/>
                             <constraint firstItem="Iqn-0Q-QEn" firstAttribute="top" secondItem="CWf-i9-IXE" secondAttribute="bottom" constant="32" id="rby-Ul-Q91"/>
-                            <constraint firstItem="xMD-QU-YK9" firstAttribute="leading" secondItem="OJy-sh-4H1" secondAttribute="trailing" constant="3" id="sDU-Pz-xUm"/>
-                            <constraint firstItem="c7n-pp-dRa" firstAttribute="leading" secondItem="4U4-kY-z7x" secondAttribute="trailing" constant="3" id="yqp-Qr-TvS"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -1326,7 +1279,7 @@
                                 </constraints>
                                 <color key="tintColor" red="1" green="0.1061947177" blue="0.27170378160000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Delete Producr">
+                                <buttonConfiguration key="configuration" style="filled" title="Delete Product">
                                     <backgroundConfiguration key="background" cornerRadius="20"/>
                                 </buttonConfiguration>
                                 <connections>
